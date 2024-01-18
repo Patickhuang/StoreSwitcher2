@@ -14,7 +14,7 @@
 	%orig;
   UIBarButtonItem *switcherButton =
     [[UIBarButtonItem alloc]
-      initWithImage:[UIImage imageNamed:@"/Library/Application Support/StoreSwitcher/switcher"]
+      initWithImage:[UIImage imageNamed:@"/var/jb/Library/Application Support/StoreSwitcher/switcher"]
       style:UIBarButtonItemStylePlain
       target:self
       action:@selector(openSwitcher:)

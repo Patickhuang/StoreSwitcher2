@@ -1,5 +1,6 @@
 TARGET = iphone:11.2:11.0
-ARCHS = arm64
+export ARCHS= arm64 arm64e
+export THEOS_PACKAGE_SCHEME=rootless
 
 include $(THEOS)/makefiles/common.mk
 
